@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="mdcPanelHeight" format="dimension" />
+        <attr name="mdcShadowHeight" format="dimension" />
+        <attr name="mdcParallaxOffset" format="dimension" />
+        <attr name="mdcFadeColor" format="color" />
+        <attr name="mdcFlingVelocity" format="integer" />
+        <attr name="mdcDragView" format="reference" />
+        <attr name="mdcScrollableView" format="reference" />
+        <attr name="mdcOverlay" format="boolean"/>
+        <attr name="mdcClipPanel" format="boolean"/>
+        <attr name="mdcAnchorPoint" format="float" />
+        <attr name="mdcInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+        <attr name="mdcScrollInterpolator" format="reference" />
+    </declare-styleable>
+
+</resources>
